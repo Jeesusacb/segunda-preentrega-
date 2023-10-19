@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box ;
+  font-family: sans-serif;
+  text-decoration: none;
+  color:  white;
+}
+
+
+.logo{
+  width: 100px;
+  border-radius: 35px 10px;
+}
+
+.volver-inicio{
+  padding: 1%;
+}
+
+body{
+  background-color:beige;
+}
+
+@font-face{
+  font-family: "italic";
+  src: url(../fonts/DMSerifDisplay-Italic.ttf)
+}
+
+.titulos-pages{
+  font-family: "italic";
+  padding: 1%;
+}
+
+.titulos-footer{
+  font-family: "italic";
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.header-index{
+  margin: 1%;
+  padding: 2%;
+  background-color:rgb(134, 22, 87);
+  border-radius: 55px 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacion-pages {
+  margin: 10rem;
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navegacion{
+  color:  rgb(170, 68, 101);;
+  border: solid  rgb(134, 22, 87);
+  display: block ;
+  margin: 3rem;  
+  padding: 10px;
+}
+
+.footer-page{
+  font-family: "italic";
+  margin : 1%;
+  padding: 2%;
+  background-color: rgb(134, 22, 87);
+  border-radius: 55px 10px;
+  border-bottom-right-radius: 5px ;
+  border: 1px solid black;
+}
+
+.redes{
+  margin: 5px;
+  display: block;
+  margin-left: 10px;
+}
+
+.contactos{
+  font-size: 20px;
+  padding-right: 12%;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.sectionnav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.catalogo{
+  min-height: 100vh ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  " empanadas golfeados"
+  " qnueces  quntable "
+  " textoprevi textoprevi";
+
+}
+
+.titulos-catalogo{
+  color:beige ; 
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+li{
+  margin: 5rem;
+  background-color:rgb(134, 22, 87);
+  border: 1px solid black;
+  justify-self: center;
+  
+}
+
+.empanadas{
+  border-radius: 20px 55px;
+  padding: 10px;
+  align-items: center;
+}
+
+.golfeados{
+  border-radius:  55px 20px;
+  padding: 10px;
+  padding-left: 1rem;
+  align-items: center;
+}
+
+.qnueces{
+  border-radius: 20px 55px;
+  padding: 10px;
+  padding-left: 1rem;
+  align-items: center;
+}
+
+.quntable{
+  border-radius:  55px 20px;
+  padding: 10px;
+  padding-left: 1rem;
+  align-items: center;
+}
+
+.textoprevi{
+  padding: 50px;
+  border-radius: 20px 55px;
+  grid-area: textoprevi ;
+}
+
+.textos-nc{
+  color: rgb(170, 68, 101);
+  margin: 2rem;
+  font-size: 20px;
+  justify-self: center;
+  
+}
+
+.ncgrid{
+  margin: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-areas: 
+  " historia  caprese  "
+  " hamburguesas historia "
+  " ceviche  pastel ";
+}
+
+.caprese{
+  padding: 4rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  border: 1px solid black;
+  border-radius:  55px 20px;
+  justify-self: center;
+  background-color: rgb(134, 22, 87);
+  
+}
+
+.minihamburguesas{
+  padding: 4rem;
+  margin-bottom: 5rem;
+  border: 1px solid black;
+  border-radius: 20px 55px;
+  justify-self: center;
+  background-color: rgb(134, 22, 87);
+  
+}
+
+.ceviche{
+  padding: 4rem;
+  margin-top: 3rem;
+  border: 1px solid black;
+  border-radius: 20px 55px;
+  justify-self: center;
+  background-color: rgb(134, 22, 87);
+  
+}
+
+.texto2{
+  padding-top: 5rem;
+  margin-left: 5rem;
+  justify-self: center;
+  
+}
+
+.imgcaprese{
+  border-radius:  55px 20px;
+}
+
+.imgburguer{
+  border-radius: 20px 55px;
+}
+
+.imgceviche{
+  border-radius: 20px 55px;
+}
+
+.gridubi{
+  display: grid; 
+  grid-template-columns: 1fr;
+
+
+}
+
+.ubicacion{
+  margin: 5rem;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 55px 55px;
+  background-color:  rgb(170, 68, 101);
+  justify-self: center ;
+}
+
+.mapa{
+  border-radius: 35px 35px;
+}
+
+
+@media (max-width:768px) {
+  .header-index{
+    margin: 1%;
+    padding: 2%;
+    background-color:rgb(134, 22, 87);
+    border-radius: 55px 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-page{
+    
+    margin : 1%;
+    padding: 2%;
+    background-color: rgb(134, 22, 87);
+    border-radius: 55px 10px;
+    border-bottom-right-radius: 5px ;
+    border: 1px solid black;
+  }
+
+  .titulos-pages{
+    font-family: "italic";
+    padding: 1%;
+  }
+
+  .titulos-footer{
+    font-family: "italic";
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  
+  .catalogo{
+    min-height: 100vh ;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    " empanadas "
+    " golfeados "
+    "  qnueces  "
+    " quntable  "
+    "textoprevi ";
+  }
+  li{
+    margin: 2.5rem;
+    background-color:rgb(134, 22, 87);
+    border: 1px solid black;
+    justify-self: center;
+  }
+  .textoprevi{
+    padding: 50px;
+    font-size: 27px;
+    border-radius: 20px 55px;
+    grid-area: textoprevi ;
+  }
+
+  .ncgrid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas: 
+    " historia    "
+    " caprese     "
+    " historia    "
+    " hamburguesa   "
+    " historia    "
+    " ceviche     ";
+  }
+
+
+}
+
+@media (max-width: 414) {
+  .header-index{
+    margin: 1%;
+    padding: 2%;
+    background-color:rgb(134, 22, 87);
+    border-radius: 55px 10px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-page{
+    
+    margin : 1%;
+    padding: 2%;
+    background-color: rgb(134, 22, 87);
+    border-radius: 55px 10px;
+    border-bottom-right-radius: 5px ;
+    border: 1px solid black;
+  }
+
+  .titulos-pages{
+    font-family: "italic";
+    padding: 1%;
+  }
+
+  .titulos-footer{
+    font-family: "italic";
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+    .catalogo{
+      min-height: 50vh ;
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-areas: 
+      " empanadas "
+      " golfeados "
+      "  qnueces  "
+      " quntable  " 
+      "textoprevi ";
+    }
+    li{
+      box-sizing: border-box;
+      background-color:rgb(134, 22, 87);
+      border: 1px solid black;
+      justify-self: center;
+    }
+    .textoprevi{
+      padding: 50px;
+      border-radius: 20px 55px;
+      font-size: 7px;
+      
+      
+    }
+
+}
+
+
